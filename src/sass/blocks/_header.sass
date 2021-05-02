@@ -1,0 +1,33 @@
+.header
+    position: fixed
+    top: 0
+    z-index: 1
+    width: 100vw
+    height: 70px
+    background-color: #000000
+    &__wrapper
+        height: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        display: block
+    &__menu
+        width: 447px
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        &-btn
+            display: none
+        &-mobile
+            display: none
+    &__menu li a
+        text-decoration: none
+        opacity: 0.69
+        font-size: 14px
+        line-height: 1.2
+        font-weight: 600
+        color: #ffffff
+        transition: 0.5s
+        &:hover
+            color: #ff8b38

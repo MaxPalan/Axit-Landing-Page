@@ -1,0 +1,70 @@
+.contactUs
+    padding: 108px 0 79px 0
+    max-height: 612px
+    &__title
+        font-family: Raleway
+        font-size: 36px
+        line-height: 28px
+        font-weight: 400
+        color: #212121
+        text-align: center
+    &__divider
+        margin: 0 auto
+        margin-top: 30px
+        width: 64px
+        height: 2px
+        background: #ff8b38
+    &__descr
+        margin-top: 30px
+        font-size: 14px
+        line-height: 14px
+        font-weight: 400
+        color: #86878b
+        text-align: center
+    &__form
+        margin-top: 80px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        *
+            outline: none
+        &-wrapper
+            width: 520px
+            input
+                width: 100%
+                padding: 9px 13px
+                border: none
+                border-bottom: 1px solid #bdbdbd
+            input::placeholder
+                font-size: 14px
+                font-weight: 400
+                color: #bdbdbd
+            input[placeholder="Email"],
+            input[placeholder="Subject"]
+                margin-top: 30px
+            textarea
+                height: 162px
+                width: 100%
+                resize: none
+                border: none
+                border-bottom: 1px solid #bdbdbd
+            textarea::placeholder
+                font-size: 15px
+                font-weight: 400
+                color: #bdbdbd
+        input[type="submit"]
+            margin: auto
+            margin-top: 40px
+            padding: 15px 22px
+            border: none
+            border-radius: 4px
+            font-size: 15px
+            font-weight: 600
+            color: #ffffff
+            background: #ff8b38
+            transition: 0.5s
+            &:hover
+                background: #ffffff
+                border: 2px solid #ff8b38
+                color: #ff8b38
+                border-radius: 4px

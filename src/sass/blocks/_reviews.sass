@@ -1,0 +1,71 @@
+.reviews
+    max-height: 591px
+    background-color: #ffffff
+    padding: 108px 0 101px 0
+    &__title
+        text-align: center
+        font-family: Raleway
+        font-size: 36px
+        line-height: 36px
+        font-weight: 400
+        color: #212121
+    &__divider
+        margin: 0 auto
+        margin-top: 30px
+        width: 64px
+        height: 2px
+        background: #ff8b38
+    &__descr
+        text-align: center
+        margin-top: 30px
+        font-size: 14px
+        line-height: 14px
+        font-weight: 400
+        color: #86878b
+    &__wrapper
+        margin-top: 55px
+        display: flex
+        justify-content: space-between
+    &__item
+        width: 273px
+        &-review
+            font-size: 14px
+            line-height: 1.2
+            font-weight: 400
+            font-style: italic
+            color: #86878b
+            background: #F5F5F5
+            padding: 24px 12px
+            border-radius: 4px
+            position: relative
+            &::after
+                content: ''
+                position: absolute
+                left: 25px
+                bottom: -25px
+                border: 10px solid transparent
+                border-top: 15px solid #F5F5F5
+        &-reviewer
+            margin-top: 20px
+            display: flex
+            &_photo
+                width: 70px
+                height: 70px
+                background: #9A9A9A
+                border-radius: 50%
+            &_info
+                margin-top: 17px
+                margin-left: 15px
+                display: flex
+                flex-direction: column
+            &_name
+                font-size: 20px
+                line-height: 20px
+                font-weight: 700
+                color: #333333
+            &_prof
+                margin-top: 8px
+                font-size: 14px
+                line-height: 14px
+                font-weight: 400
+                color: #86878b
